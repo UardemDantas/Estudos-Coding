@@ -52,6 +52,6 @@ export class NegociacaoController {
 
     private atualizaView(): void {
         this.negociacoesView.update(this.negociacoes);
-        this.mensagemView.update('Negociação adicionada com sucesso');
+        this.mensagemView.update('Negociação adicionada com sucesso.');
     }
 }
